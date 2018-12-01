@@ -1,0 +1,47 @@
+body {
+    background-color: #A8A3CC;
+    font-family: 'PT Sans Caption';
+}
+.parent {
+    position: relative;
+}
+.overImage {
+    position: absolute;
+}
+.button {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 28px;
+}
+#firstX{
+    top: 110px;
+    left: 810px;
+}
+#hiddenEars{
+    display: none;
+}
+#hiddenTails{
+    display: none;
+}
+#hiddenEyes{
+    display: none;
+}
+#arrow{
+    position: absolute;
+    top: 630px;
+    right: 30px;
+}
+.option {
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: 5;
+    position: absolute;
+    font-size: 28px;
+    top: 620px;
+    right:30px;
+}
